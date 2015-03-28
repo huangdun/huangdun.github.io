@@ -1,18 +1,23 @@
-<!DOCTYPE html>
-<head>
-<style>
-body { 
-    text-align: center; 
-    background: url("http://i.imgur.com/A3jKtmG.jpg?1");
-    color: white;
-    font-family: Helvetica;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+---
+layout: default
+---
 
-</style>
-</head>
-<body>
-</body>
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
