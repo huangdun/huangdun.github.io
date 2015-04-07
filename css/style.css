@@ -121,6 +121,12 @@ h1 span{
 
 }
 
+.start-page .opacity{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:rgba(51,51,51,0.5); /* Standard Off */
+}
 
 .start-page .content{
   position:relative;
