@@ -104,7 +104,7 @@ h1 span{
   width:100%;
   height:100%;
   z-index:10;
-  background:url('../img/background/start-page.jpg') #ada074 bottom center fixed no-repeat;
+  background:#ada074 bottom center fixed no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
