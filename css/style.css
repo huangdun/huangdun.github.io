@@ -76,12 +76,12 @@ h1 span{
 
 
 ::selection {
-  background: #ada074;
+  background: #24bb4d;
   color:white;
 }
 
 ::-moz-selection {
-  background: #ada074;
+  background: #24bb4d;
   color:white;
 }
 
@@ -178,8 +178,8 @@ h1 span{
 
 .start-page .content .text .read-more:hover{
   color:white;
-  background: #ada074;
-  border:1px solid #ada074;
+  background: #24bb4d;
+  border:1px solid #24bb4d;
 }
 
 .start-page .content .arrow-down{
@@ -222,7 +222,7 @@ h1 span{
   position:relative;
   width:100%;
   height:90px;
-  background:#ada074;
+  background:#24bb4d;
   z-index:1000;
   display:none;
 }
@@ -273,7 +273,7 @@ h1 span{
  }
 
 .menu-click li:hover {
-  color:#ada074;
+  color:#24bb4d;
  }
 
 
@@ -332,11 +332,11 @@ h1 span{
 }
 
 .menu-content li.active a{
-  color:#ada074;
+  color:#24bb4d;
 }
 
 .menu-content li a:hover{
-  color:#ada074;
+  color:#24bb4d;
 }
 
 
@@ -440,7 +440,7 @@ h1 span{
 }
 
 .about-us .column-one .circle-one:hover{
-  border:2px solid #ada074;
+  border:2px solid #24bb4d;
 
 }
 
@@ -471,7 +471,7 @@ h1 span{
 }
 
 .about-us .column-two .circle-two:hover{
-  border:2px solid #ada074;
+  border:2px solid #24bb4d;
 }
 
 
@@ -502,7 +502,7 @@ h1 span{
 }
 
 .about-us .column-three .circle-three:hover{ 
-  border:2px solid #ada074;
+  border:2px solid #24bb4d;
 }
 
 
@@ -547,9 +547,9 @@ h1 span{
 }
 
 .portfolio .portfolio-margin .read-more:hover{
-  background:#ada074;
+  background:#24bb4d;
   color:white;
-  border:1px solid #ada074;
+  border:1px solid #24bb4d;
 }
 
 .portfolio .portfolio-margin h1{
@@ -910,7 +910,7 @@ input.submit{
 }
 
 .footer .menu-footer a:hover{
-  color:#ada074;
+  color:#24bb4d;
 }
 
 
