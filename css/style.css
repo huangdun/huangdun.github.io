@@ -76,12 +76,12 @@ h1 span{
 
 
 ::selection {
-  background: #ada074;
+  background: #339933;
   color:white;
 }
 
 ::-moz-selection {
-  background: #ada074;
+  background: #339933;
   color:white;
 }
 
@@ -104,7 +104,7 @@ h1 span{
   width:100%;
   height:100%;
   z-index:10;
-  background:url('../img/background/start-page.jpg') #c0c0c0 bottom center fixed no-repeat;
+  background:url('../img/background/start-page.jpg') #339933 bottom center fixed no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -125,7 +125,7 @@ h1 span{
   position:absolute;
   width:100%;
   height:100%;
-  background:rgba(51,51,51,0.5); /* Standard Off */
+  background:rgba(51,153,51,0.8); /* Standard Off */
 }
 
 
@@ -178,8 +178,8 @@ h1 span{
 
 .start-page .content .text .read-more:hover{
   color:white;
-  background: #ada074;
-  border:1px solid #ada074;
+  background: #339933;
+  border:1px solid #339933;
 }
 
 .start-page .content .arrow-down{
@@ -222,7 +222,7 @@ h1 span{
   position:relative;
   width:100%;
   height:90px;
-  background:#ada074;
+  background:#339933;
   z-index:1000;
   display:none;
 }
@@ -273,7 +273,7 @@ h1 span{
  }
 
 .menu-click li:hover {
-  color:#ada074;
+  color:#339933;
  }
 
 
@@ -332,11 +332,11 @@ h1 span{
 }
 
 .menu-content li.active a{
-  color:#ada074;
+  color:#339933;
 }
 
 .menu-content li a:hover{
-  color:#ada074;
+  color:#339933;
 }
 
 
@@ -440,7 +440,7 @@ h1 span{
 }
 
 .about-us .column-one .circle-one:hover{
-  border:2px solid #ada074;
+  border:2px solid #339933;
 
 }
 
@@ -471,7 +471,7 @@ h1 span{
 }
 
 .about-us .column-two .circle-two:hover{
-  border:2px solid #ada074;
+  border:2px solid #339933;
 }
 
 
@@ -502,7 +502,7 @@ h1 span{
 }
 
 .about-us .column-three .circle-three:hover{ 
-  border:2px solid #ada074;
+  border:2px solid #339933;
 }
 
 
@@ -547,9 +547,9 @@ h1 span{
 }
 
 .portfolio .portfolio-margin .read-more:hover{
-  background:#ada074;
+  background:#339933;
   color:white;
-  border:1px solid #ada074;
+  border:1px solid #339933;
 }
 
 .portfolio .portfolio-margin h1{
@@ -910,7 +910,7 @@ input.submit{
 }
 
 .footer .menu-footer a:hover{
-  color:#ada074;
+  color:#339933;
 }
 
 
