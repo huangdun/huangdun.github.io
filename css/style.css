@@ -177,9 +177,9 @@ h1 span{
 }
 
 .start-page .content .text .read-more:hover{
-  color:white;
-  background: #339933;
-  border:1px solid #339933;
+  color: #339933;
+  background:white;
+  border:1px solid white;
 }
 
 .start-page .content .arrow-down{
