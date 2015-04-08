@@ -901,7 +901,7 @@ input.submit{
 .footer .menu-footer a{
   line-height:46px;
   padding:10px;
-  color:#a4a4a4;
+  color:white;
   -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
 	-ms-transition: all 0.2s ease-in;
@@ -926,6 +926,6 @@ input.submit{
   text-align:center;
   font-size:14px;
   line-height:36px;
-  color:#a4a4a4;
+  color:white;
 }
 
