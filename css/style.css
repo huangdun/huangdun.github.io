@@ -913,6 +913,9 @@ input.submit{
   color:#339933;
 }
 
+.footer .link{
+  color: #333
+}
 
 .footer .copyright{
   width:80%;
