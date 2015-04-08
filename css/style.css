@@ -169,6 +169,7 @@ h1 span{
   font-size:14px;
   letter-spacing:1px;
   background:none;
+  display: inline-block;
   -webkit-transition: all 0.6s ease-in;
 	-moz-transition: all 0.6s ease-in;
 	-ms-transition: all 0.6s ease-in;
