@@ -125,7 +125,7 @@ h1 span{
   position:absolute;
   width:100%;
   height:100%;
-  background:rgba(51,153,51,0.2); /* Standard Off */
+  background:rgba(51,51,51,0.2); /* Standard Off */
 }
 
 
@@ -159,7 +159,7 @@ h1 span{
 .start-page .content .text .read-more{
   width:183px;
   height:47px;
-  margin:80px auto;
+  margin:120px auto;
   line-height:47px;
   border:1px solid white;
   text-transform:uppercase;
@@ -177,9 +177,9 @@ h1 span{
 }
 
 .start-page .content .text .read-more:hover{
-  color: #339933;
-  background:white;
-  border:1px solid white;
+  color:white;
+  background:#339933;
+  border:1px solid #339933;
 }
 
 .start-page .content .arrow-down{
