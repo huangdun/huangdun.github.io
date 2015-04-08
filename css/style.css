@@ -138,6 +138,7 @@ h1 span{
 .start-page .content .text{
   position:absolute;
   text-align:center;
+  padding: 0 20px 0 20px;
   margin:auto;
   top:0; 
   left:0; 
