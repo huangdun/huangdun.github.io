@@ -286,7 +286,7 @@ header .intro-text {
 
 header .intro-text hr{
   color: white;
-  margin-top: 25px;
+  margin-top:25px;
   background-color: white;
   height: 1px;
   width:106px;
@@ -300,7 +300,7 @@ header .intro-text .logo{
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 26px;
     text-transform:uppercase;
@@ -311,7 +311,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 60px;
-    margin-top:40px;
+    margin-top:30px;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 20px;
     font-weight: 300;
