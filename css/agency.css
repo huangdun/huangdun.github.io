@@ -301,7 +301,7 @@ header .intro-text .logo{
 header .intro-text .intro-lead-in {
     margin-bottom: 15px;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     text-transform:uppercase;
     font-weight: 400;
     letter-spacing:3px;
@@ -309,9 +309,9 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
 	letter-spacing:1px;
     line-height: 24px;
@@ -352,7 +352,7 @@ header .intro-text .intro-heading {
         margin-top: 25px;
         margin-bottom: 50px;
         font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 24px;
+        font-size: 28px;
         font-weight: 300;
         letter-spacing:1px;
         line-height: 36px;
