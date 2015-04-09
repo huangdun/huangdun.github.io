@@ -157,9 +157,9 @@ h1 span{
 
 
 .start-page .content .text .read-more{
-  width:143px;
+  width:183px;
   height:47px;
-  margin:60px 20px auto 0px;
+  margin:50px 20px auto;
   line-height:47px;
   border:1px solid white;
   text-transform:uppercase;
@@ -188,6 +188,7 @@ h1 span{
   bottom: 110px;
   left: 50%;
   margin-left: -10px;
+  margin-top: 100px
   width: 21px;
   height: 29px;
   background: url(../img/arrow-down.png) no-repeat center center;
