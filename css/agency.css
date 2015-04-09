@@ -180,6 +180,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,cursive;
     color: #fff;
+    font-weight: 600;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -300,11 +301,12 @@ header .intro-text .logo{
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     text-transform:uppercase;
-    font-weight:400;
+    font-weight: 400;
+    letter-spacing:3px;
     line-height:1.2;
 }
 
@@ -313,7 +315,8 @@ header .intro-text .intro-heading {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 300;
-    line-height: 50px;
+	letter-spacing:1px;
+    line-height: 24px;
 }
 
 @media(min-width:768px) {
@@ -328,6 +331,8 @@ header .intro-text .intro-heading {
         font-size: 34px;
         text-transform:uppercase;
         line-height: 40px;
+        font-weight: 400;
+        letter-spacing:6px;
     }
 
     header .intro-text .intro-heading {
