@@ -123,7 +123,6 @@ fieldset[disabled] .btn-primary.active {
     padding: 10px 40px;
     border: 1px solid #fff;
     border-radius: 0px;
-    margin-bottom: 30px;
     text-transform: uppercase;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
@@ -303,7 +302,7 @@ header .intro-text .logo{
 header .intro-text .intro-lead-in {
     margin-bottom: 30px;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 24px;
+    font-size: 26px;
     text-transform:uppercase;
     font-weight: 400;
     letter-spacing:3px;
