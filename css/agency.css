@@ -22,6 +22,7 @@ body {
 hr{
   	color: #000;
   	margin-top: 30px;
+  	margin-bottom: 60px;
   	background-color: #000;
   	height: 1px;
   	width:106px;
@@ -703,7 +704,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #4CAF50;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
