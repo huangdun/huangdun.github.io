@@ -297,6 +297,7 @@ header .intro-text {
 header .intro-text hr{
   color: white;
   margin-top:25px;
+  margin-bottom: 0px;
   background-color: white;
   height: 1px;
   width:106px;
@@ -338,6 +339,7 @@ header .intro-text .intro-heading {
     header .intro-text hr{
   		color: white;
   		margin-top:30px;
+  		margin-bottom: 0px;
   		background-color: white;
   		height: 1px;
   		width:106px;
