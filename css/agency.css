@@ -42,7 +42,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #339933;
+    color: #fec503;
 }
 
 h1,
@@ -82,9 +82,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #339933;
+    border-color: #f6bf01;
     color: #fff;
-    background-color: #339933;
+    background-color: #fec503;
 }
 
 .btn-primary:active,
@@ -134,9 +134,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #339933;
+    border-color: #f6bf01;
     color: #fff;
-    background-color: #339933;
+    background-color: #fec503;
 }
 
 .btn-xl:active,
@@ -171,19 +171,19 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #339933;
+    background-color: #222;
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Helvetica Neue",Helvetica,Arial,cursive;
-    color: white;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #339933;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #339933;
+    color: #fec503;
 }
 
 .navbar-default .navbar-collapse {
@@ -215,21 +215,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    border-radius: 3px;
     color: #339933;
-    background-color: #fff;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #339933;
-    background-color: #fff;
+    color: #fff;
+    background-color: #339933;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #339933;
-    background-color: #fff;
+    color: #fff;
+    background-color: #fec503;
 }
 
 @media(min-width:768px) {
@@ -255,7 +253,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #339933;
+        background-color: #222;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
