@@ -3,6 +3,8 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+/* Font Google - strong reaload time */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,100,700,900&subset=latin,latin-ext);
 
 body {
     overflow-x: hidden;
@@ -119,14 +121,15 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #4CAF50;
+    border-color: #fff;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 300;
     color: #fff;
-    background-color: #4CAF50;
+    letter-spacing:1px;
+    background-color: none;
 }
 
 .btn-xl:hover,
@@ -134,9 +137,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #2E7D32;
+    border-color: #4CAF50;
     color: #fff;
-    background-color: #2E7D32;
+    background-color: #4CAF50;
 }
 
 .btn-xl:active,
@@ -279,44 +282,63 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
+header .intro-text hr{
+  color: white;
+  margin-top:30px;
+  background-color: white;
+  height: 1px;
+  width:106px;
+  border:0;
+
+}
+
+header .intro-text .logo{
+  width:123px;
+  height:123px;
+  margin:0px auto 50px;
+  
+}
+
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
+    text-transform:uppercase;
+    font-weight:400;
+    letter-spacing:6px;
+    line-height:1.2;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 300;
     line-height: 50px;
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 120px;
         padding-bottom: 200px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
-        font-style: italic;
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 34px;
+        text-transform:uppercase;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
+        margin-top: 25px;
         margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        letter-spacing:1px;
+        line-height: 36px;
     }
 }
 
