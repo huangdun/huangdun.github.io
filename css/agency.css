@@ -773,6 +773,10 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    background-color: #4CAF50;
+    background-image: url(../img/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 footer span.copyright {
