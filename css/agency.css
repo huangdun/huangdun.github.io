@@ -55,6 +55,7 @@ a:focus,
 a:active,
 a.active {
     color: #1B5E20;
+    text-decoration:none;
 }
 
 h1,
