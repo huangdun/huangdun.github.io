@@ -39,17 +39,22 @@
 <body id="page-top" class="index">
     <!-- Preloader -->
     <div id="preloader">
-    <div class='triangles'>
-    <div class='tri invert'></div>
-    <div class='tri invert'></div>
-    <div class='tri'></div>
-    <div class='tri invert'></div>
-    <div class='tri invert'></div>
-    <div class='tri'></div>
-    <div class='tri invert'></div>
-    <div class='tri'></div>
-    <div class='tri invert'></div>
+        <div class='triangles'>
+            <div class='tri invert'></div>
+            <div class='tri invert'></div>
+            <div class='tri'></div>
+            <div class='tri invert'></div>
+            <div class='tri invert'></div>
+            <div class='tri'></div>
+            <div class='tri invert'></div>
+            <div class='tri'></div>
+            <div class='tri invert'></div>
+        </div>
+        <div class="loader">
+            <span></span>
+        </div>
     </div>
+
     <!-- loading
     <svg version="1.1" id="wrapper" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      width="273px" height="125.2px" viewBox="0 0 273 125.2" enable-background="new 0 0 273 125.2" xml:space="preserve">
@@ -769,6 +774,28 @@
             $('body').delay(350).css({'overflow':'visible'});
         })
     //]]>
+    $(document).ready(function() {
+  var counter = 0;
+
+  // Set the percentage off
+  loading();
+});
+
+function loading(){
+  var num = 0;
+
+  for(i=0; i<=100; i++) {
+    setTimeout(function() { 
+      $('.loader span').html(num+'%');
+
+      if(num == 100) {
+        loading();
+      }
+      num++;
+    },i*120);
+  };
+
+}
     </script> 
 
     <!-- Google -->
