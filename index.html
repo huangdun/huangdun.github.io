@@ -50,9 +50,6 @@
             <div class='tri'></div>
             <div class='tri invert'></div>
         </div>
-        <div class="loader">
-            <span></span>
-        </div>
     </div>
 
     <!-- loading
@@ -769,33 +766,11 @@
     <script type="text/javascript">
     //<![CDATA[
         $(window).load(function() { // makes sure the whole site is loaded
-            var counter = 0;
             $('#status').fadeOut(); // will first fade out the loading animation
             $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
             $('body').delay(350).css({'overflow':'visible'});
-        
+        })
     //]]>
-  
-
-  // Set the percentage off
-  loading();
-});
-
-function loading(){
-  var num = 0;
-
-  for(i=0; i<=100; i++) {
-    setTimeout(function() { 
-      $('.loader span').html(num+'%');
-
-      if(num == 100) {
-        loading();
-      }
-      num++;
-    },i*120);
-  };
-
-}
     </script> 
 
     <!-- Google -->
