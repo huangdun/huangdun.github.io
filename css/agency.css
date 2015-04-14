@@ -551,6 +551,7 @@ section h3.section-subheading {
     background-color: #4CAF50;
 }
 
+
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
     font-size: 10px;
@@ -671,6 +672,13 @@ section h3.section-subheading {
         width: 170px;
         height: 170px;
         margin-left: -85px;
+    }
+
+    .timeline>li .timeline-image:hover,
+    .timeline>li .timeline-image:focus,
+    .timeline>li .timeline-image:active,
+    .timeline>li .timeline-image.active {
+        border:7px solid #4CAF50;
     }
 
     .timeline>li .timeline-image h4 {
