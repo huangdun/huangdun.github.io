@@ -207,8 +207,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #4CAF50;
-    background-color: #4CAF50;
+    border-color: transparent;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -237,18 +237,18 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #1B5E20;
-    background-color: #4CAF50;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #1B5E20;
-    background-color: #4CAF50;
+    background-color: transparent;
 }
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 10px 0;
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
@@ -270,6 +270,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink {
         padding: 10px 0;
         background-color: #4CAF50;
+        box-shadow:0px 1px 10px 0px #1B5E20;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -277,11 +278,149 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+
+.video-container .title-container {
+  z-index: 1000;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.video-container .title-container .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.video-container .title-container .intro-text hr{
+  color: white;
+  margin-top:25px;
+  margin-bottom: 0px;
+  background-color: white;
+  height: 1px;
+  width:106px;
+  border:0;
+}
+
+.video-container .title-container .intro-text .logo{
+  width:125px;
+  height:125px;
+  margin:0px auto 60px;
+}
+
+.video-container .title-container .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 26px;
+    text-transform:uppercase;
+    font-weight: 400;
+    letter-spacing:3px;
+    line-height:1.2;
+}
+
+.video-container .title-container .intro-text .intro-heading {
+    margin-bottom: 60px;
+    margin-top:30px;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+	letter-spacing:1px;
+    line-height: 24px;
+}
+
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+@media(min-width:768px) {
+    .video-container .title-container .intro-text {
+        padding-top: 120px;
+        padding-bottom: 200px;
+    }
+
+    .video-container .title-container .intro-text hr{
+  		color: white;
+  		margin-top:30px;
+  		margin-bottom: 0px;
+  		background-color: white;
+  		height: 1px;
+  		width:106px;
+  		border:0;
+	}
+
+	.video-container .title-container .intro-text .logo{
+ 	 	width:125px;
+  		height:125px;
+  		margin:0px auto 50px;
+	}
+
+    .video-container .title-container .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 34px;
+        text-transform:uppercase;
+        line-height: 40px;
+        font-weight: 400;
+        letter-spacing:6px;
+    }
+
+    .video-container .title-container .intro-text .intro-heading {
+        margin-top: 25px;
+        margin-bottom: 50px;
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 28px;
+        font-weight: 300;
+        letter-spacing:1px;
+        line-height: 36px;
+    }
+}
+
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-color: #4CAF50;
+    background-image: url(../img/headerwide.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -786,6 +925,7 @@ footer {
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow:0px 1px 10px 0px #1B5E20 inset;
 }
 
 footer span.copyright {
