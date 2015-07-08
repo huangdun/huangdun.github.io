@@ -278,6 +278,13 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+header {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -415,7 +422,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-header {
+/* header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -511,7 +518,7 @@ header .intro-text .intro-heading {
         letter-spacing:1px;
         line-height: 36px;
     }
-}
+} */
 
 section {
     padding: 100px 0;
