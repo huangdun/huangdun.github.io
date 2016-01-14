@@ -312,8 +312,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .video-container .title-container .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 30%;
+    padding-bottom: 10%;
 }
 
 .video-container .title-container .intro-text hr{
@@ -374,8 +374,8 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .video-container .title-container .intro-text {
-        padding-top: 120px;
-        padding-bottom: 200px;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
 
     .video-container .title-container .intro-text hr{
@@ -389,15 +389,15 @@ fieldset[disabled] .btn-xl.active {
 	}
 
 	.video-container .title-container .intro-text .logo{
- 	 	width:125px;
+ 	 	  width:125px;
   		height:125px;
   		margin:0px auto 50px;
 	}
 
     .video-container .title-container .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 2%;
         font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 34px;
+        font-size: 5vmin;
         text-transform:uppercase;
         line-height: 40px;
         font-weight: 400;
@@ -405,13 +405,13 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .video-container .title-container .intro-text .intro-heading {
-        margin-top: 25px;
-        margin-bottom: 50px;
+        margin-top: 2%;
+        margin-bottom: 4%;
         font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 28px;
+        font-size: 5vmin;
         font-weight: 300;
         letter-spacing:1px;
-        line-height: 36px;
+        line-height: 6vmin;
     }
 }
 
