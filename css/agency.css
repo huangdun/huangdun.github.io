@@ -1065,3 +1065,24 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #4CAF50;
 }
+
+#instagram {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+  .post {
+    position: relative;
+    width: 20vw; height: 20vw;
+    background: #000;
+    display: block;
+    overflow: hidden;
+    .image {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-position: center;
+      background-size: cover;
+      transition: all .15s ease-in-out;
+    }
+  }
+}
