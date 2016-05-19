@@ -1069,20 +1069,30 @@ body {
 #instagram {
   position: relative;
   width: 100vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
-  .post {
-    position: relative;
-    width: 20vw; height: 20vw;
-    background: #000;
-    display: block;
-    overflow: hidden;
-    .image {
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background-position: center;
-      background-size: cover;
-      transition: all .15s ease-in-out;
-    }
-  }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+#instagram .post {
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  background: #000;
+  display: block;
+  overflow: hidden;
+}
+#instagram .post .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
 }
