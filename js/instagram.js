@@ -3,7 +3,7 @@ $(function(){
   $.getJSON('https://api.instagram.com/v1/users/self/media/recent/?access_token='+accessToken+'&callback=?',function (insta) {
     $.each(insta.data,function (photos,src) {
       if ( photos === 10 ) { return false; }
-      $('<a href="'+src.link+'" class="post">'+
+      $('<a href="'+src.link+'" class="post" target="_blank">'+
         '<div class="image" style="background-image:url('+src.images.standard_resolution.url+');"></div>'+
         '<ul>'+
         '<li><i class="fa fa-camera"></i> '+src.filter+'</li>'+
