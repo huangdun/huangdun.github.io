@@ -532,12 +532,13 @@
    //]]>
    </script>
 
+   <!-- Close Menu -->
    <script>
-   $(function(){
-       var navMain = $("#theMenu");
-       navMain.on("click", "a", null, function () {
-           navMain.collapse('hide');
-       });
+   $(document).click(function(){
+     $(".menu").removeClass('menu-open');
+   });
+   $("#theMenu").click(function(e){
+     e.stopPropagation();
    });
    </script>
 
