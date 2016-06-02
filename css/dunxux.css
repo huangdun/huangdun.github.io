@@ -693,11 +693,6 @@ CONTACT
     text-transform: uppercase;
     letter-spacing:1px;
 }
-#contact .contact-heading h4:hover,
-#contact .contact-heading h4:focus,
-#contact .contact-heading h4:active {
-    color: #2E7D32;
-}
 
 ul.social-buttons {
     margin-bottom: 0;
