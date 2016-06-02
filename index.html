@@ -513,7 +513,7 @@
     <script>
       $(function(){
           $("#head-title").typed({
-            strings: ["I design.^1000", "I laugh :)^1000", "I take photo.^1000", "I love life.^1000", "I'm 24/7 available for hire.^1000"],
+            strings: ["I ❤ design.^1000", "I ❤ laugh :)^1000", "I ❤ photography.^1000", "I ❤ life.^1000", "I'm 24/7 available for hire.^1000"],
             typeSpeed: 100,
             loop: true,
             startDelay: 100
@@ -530,6 +530,15 @@
            $('body').delay(350).css({'overflow':'visible'});
        })
    //]]>
+   </script>
+
+   <script>
+   $(function(){
+       var navMain = $("#theMenu");
+       navMain.on("click", "a", null, function () {
+           navMain.collapse('hide');
+       });
+   });
    </script>
 
     <!-- Google Analytics -->
