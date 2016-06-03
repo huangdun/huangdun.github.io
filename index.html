@@ -543,9 +543,6 @@
    <!-- Touch Screen -->
    <script>
    if ("ontouchstart" in document.documentElement) {
-   $("#portfolio .portfolio-item .portfolio-link .taphover").on("touchmove", false, function(e){
-     e.preventDefault();
-   });
    $('#portfolio .portfolio-item .portfolio-link .taphover').on('touchstart', function (e) {
        "use strict"; //satisfy the code inspectors
        var link = $(this); //preselect the link
