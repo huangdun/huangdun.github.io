@@ -543,10 +543,21 @@
    <!-- Touch Screen -->
    <script>
    if ("ontouchstart" in document.documentElement) {
-     $("#portfolio .portfolio-item .portfolio-link .portfolio-hover").one("click", function(e) {
-    e.preventDefault();
-    $(this).addClass('hover');
-});
+   $("#portfolio .portfolio-item .portfolio-link").on("touchmove", false, function(e){
+     e.preventDefault();
+   });
+   $('#portfolio .portfolio-item .portfolio-link .taphover').on('touch', function (e) {
+       "use strict"; //satisfy the code inspectors
+       var link = $(this); //preselect the link
+       if (link.hasClass('hover')) {
+           return true;
+       } else {
+           link.addClass("hover");
+           $('#portfolio .portfolio-item .portfolio-link .taphover').not(this).removeClass("hover");
+           e.preventDefault();
+           return false; //extra, and to make sure the function has consistent return points
+       }
+   });
    </script>
 
     <!-- Google Analytics -->
