@@ -543,7 +543,7 @@
    <!-- Touch Screen -->
    <script>
    if ("ontouchstart" in document.documentElement) {
-   $("#portfolio .portfolio-item .portfolio-link").on("touchmove", false, function(e){
+   $("#portfolio .portfolio-item .portfolio-link .taphover").on("touchmove", false, function(e){
      e.preventDefault();
    });
    $('#portfolio .portfolio-item .portfolio-link .taphover').on('touchstart', function (e) {
