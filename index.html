@@ -546,7 +546,7 @@
    $("#portfolio .portfolio-item .portfolio-link").on("touchmove", false, function(e){
      e.preventDefault();
    });
-   $('#portfolio .portfolio-item .portfolio-link .taphover').on('touch', function (e) {
+   $('#portfolio .portfolio-item .portfolio-link .taphover').on('touchstart', function (e) {
        "use strict"; //satisfy the code inspectors
        var link = $(this); //preselect the link
        if (link.hasClass('hover')) {
