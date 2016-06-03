@@ -542,10 +542,7 @@
 
    <!-- Touch Screen -->
    <script>
-   $("#portfolio .portfolio-item .portfolio-link .portfolio-hover").on("touchmove", false, function(e){
-  e.preventDefault();
-});
-   $('#portfolio .portfolio-item .portfolio-link .portfolio-hover').bind('touchstart touchend', function (e) {
+   $('#portfolio .portfolio-item .portfolio-link .portfolio-hover').bind('touchend', function (e) {
        "use strict"; //satisfy the code inspectors
        var link = $(this); //preselect the link
        if (link.hasClass('hover')) {
