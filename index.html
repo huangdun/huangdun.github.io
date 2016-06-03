@@ -191,7 +191,7 @@
 
              <div class="col-sm-4 col-md-3 portfolio-item">
                  <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                     <div class="portfolio-hover taphover">
+                     <div class="portfolio-hover">
                          <div class="portfolio-hover-content">
                            <h4>UWaterloo Mobile</h4>
                            <p>Mobile Application Design</p>
@@ -203,7 +203,7 @@
 
                <div class="col-sm-4 col-md-3 portfolio-item">
                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                       <div class="portfolio-hover taphover">
+                       <div class="portfolio-hover">
                            <div class="portfolio-hover-content">
                              <h4>Waterloo Works</h4>
                              <p>Website Evaluation</p>
@@ -215,7 +215,7 @@
 
                <div class="col-sm-4 col-md-3 portfolio-item">
                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                       <div class="portfolio-hover taphover">
+                       <div class="portfolio-hover">
                            <div class="portfolio-hover-content">
                              <h4>fooriend</h4>
                              <p>Branding Design</p>
@@ -227,7 +227,7 @@
 
                <div class="col-sm-4 col-md-3 portfolio-item">
                  <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                     <div class="portfolio-hover taphover">
+                     <div class="portfolio-hover">
                          <div class="portfolio-hover-content">
                            <h4>Heart It</h4>
                            <p>Icon Design</p>
@@ -542,15 +542,14 @@
 
    <!-- Touch Screen -->
    <script>
-   if ("ontouchstart" in document.documentElement) {
-   $('#portfolio .portfolio-item .portfolio-link .taphover').on('touchstart', function (e) {
+   $('#portfolio .portfolio-item .portfolio-link .portfolio-hover').on('touchstart', function (e) {
        "use strict"; //satisfy the code inspectors
        var link = $(this); //preselect the link
        if (link.hasClass('hover')) {
            return true;
        } else {
            link.addClass("hover");
-           $('#portfolio .portfolio-item .portfolio-link .taphover').not(this).removeClass("hover");
+           $('#portfolio .portfolio-item .portfolio-link .portfolio-hover').not(this).removeClass("hover");
            e.preventDefault();
            return false; //extra, and to make sure the function has consistent return points
        }
