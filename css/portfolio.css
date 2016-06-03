@@ -34,8 +34,7 @@ Portfolio
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover.taphover:hover,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover.taphover.hover {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover.taphover:hover, .taphover.hover {
     opacity: 1;
 }
 
