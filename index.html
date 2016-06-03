@@ -542,18 +542,11 @@
 
    <!-- Touch Screen -->
    <script>
-   $('#portfolio .portfolio-item .portfolio-link .taphover').on('touchend', function (e) {
-       "use strict"; //satisfy the code inspectors
-       var link = $(this); //preselect the link
-       if (link.hasClass('hover')) {
-           return true;
-       } else {
-           link.addClass("hover");
-           $('#portfolio .portfolio-item .portfolio-link .taphover').not(this).removeClass("hover");
-           e.preventDefault();
-           return false; //extra, and to make sure the function has consistent return points
-       }
-   });
+   if ("ontouchstart" in document.documentElement) {
+   $("#portfolio .portfolio-item .portfolio-link").one("click", false, function(e){
+     e.preventDefault();
+   }
+   }
    </script>
 
     <!-- Google Analytics -->
