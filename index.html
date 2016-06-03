@@ -167,7 +167,7 @@
 
              <div class="col-sm-4 col-md-3 portfolio-item">
                  <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                     <div class="portfolio-hover taphover">
+                     <div class="portfolio-hover">
                          <div class="portfolio-hover-content">
                            <h4>CCAfrica Website Redesign</h4>
                            <p>Website Design</p>
@@ -543,22 +543,10 @@
    <!-- Touch Screen -->
    <script>
    if ("ontouchstart" in document.documentElement) {
-   $("#portfolio .portfolio-item .portfolio-link").one("click", false, function(e){
-     e.preventDefault();
-   });
-
-   $('#portfolio .portfolio-item .portfolio-link .taphover').on('touchend', function (e) {
-       "use strict"; //satisfy the code inspectors
-       var link = $(this); //preselect the link
-       if (link.hasClass('hover')) {
-           return true;
-       } else {
-           link.addClass("hover");
-           $('#portfolio .portfolio-item .portfolio-link .taphover').not(this).removeClass("hover");
-           e.preventDefault();
-           return false; //extra, and to make sure the function has consistent return points
-       }
-   });
+     $("#portfolio .portfolio-item .portfolio-link").one("click", function(e) {
+    e.preventDefault();
+    $(this).addClass('portfolio-hover');
+});
    </script>
 
     <!-- Google Analytics -->
