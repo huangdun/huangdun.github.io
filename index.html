@@ -543,9 +543,9 @@
    <!-- Touch Screen -->
    <script>
    if ("ontouchstart" in document.documentElement) {
-     $("#portfolio .portfolio-item .portfolio-link").one("click", function(e) {
+     $("#portfolio .portfolio-item .portfolio-link .portfolio-hover").one("click", function(e) {
     e.preventDefault();
-    $(this).addClass('portfolio-hover');
+    $(this).addClass('hover');
 });
    </script>
 
