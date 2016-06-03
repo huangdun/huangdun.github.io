@@ -34,6 +34,10 @@ Portfolio
     opacity: 1;
 }
 
+#portfolio .portfolio-item .portfolio-link .portfolio-hover.taphover:hover, a.taphover.hover {
+    opacity: 1;
+}
+
 #portfolio .portfolio-item .portfolio-link:focus {
   background-image: none;
   outline: 0;
