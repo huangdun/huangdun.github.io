@@ -526,6 +526,7 @@ PHOTO
   position: relative;
   padding: 0;
   width: 100vw;
+  margin-left: -15px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
