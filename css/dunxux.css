@@ -524,7 +524,8 @@ PHOTO
 @media (max-width: 767px) {
 #instagram {
   position: relative;
-  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
   width: 100vw;
   display: -webkit-box;
   display: -webkit-flex;
