@@ -454,8 +454,8 @@ PHOTO
   position: relative;
   padding: 0;
   width: 100vw;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: auto;
+  margin-left: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -490,8 +490,8 @@ PHOTO
   position: relative;
   padding: 0;
   width: 100vw;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: auto;
+  margin-left: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
