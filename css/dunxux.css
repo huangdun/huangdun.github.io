@@ -684,6 +684,33 @@ ABOUT
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
+.aboutimage {
+	display: block;
+	background: transparent url(about.jpg) no-repeat left top;
+	background-position: 50%;
+	background-size: 1600% 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+.aboutimage img {
+	width: 100%;
+	opacity: 0;
+	pointer-events: none;
+}
+
+html.touch .about .aboutimage {
+	display: block;
+	background: none !important;
+}
+
+html.touch .about .aboutimage img {
+	opacity: 1 !important;
+}
+
 /*
 
 =====================
