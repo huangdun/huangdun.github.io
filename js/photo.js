@@ -1,5 +1,5 @@
 $(function(){
-  var accessToken = '196042102.cdef1c9.0e8cbd0ceb11460688cb240309cd5b0e';
+  var accessToken = '196042102.cdef1c9.c2788042af7041beb20f9ffd23f75860';
   $.getJSON('https://api.instagram.com/v1/users/self/media/recent/?access_token='+accessToken+'&callback=?',function (insta) {
     $.each(insta.data,function (photos,src) {
       if ( photos === 8 ) { return false; }

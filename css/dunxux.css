@@ -214,7 +214,7 @@ MENU
 	position: absolute;
 	top: 0;
 	left: 60px;
-	background: #4A4A4A;
+	background: #374256;
 	width: 200px;
 	height: 100%;
 }
@@ -242,7 +242,7 @@ MENU
 
 .menu a {
 	margin-left: 24px;
-	color: #808080;
+	color: #5f6a7d;
 	display: block;
 	font-size: 16px;
 	font-weight: 400;
@@ -283,7 +283,7 @@ MENU
 	display: block;
 	position: absolute;
 	font-size: 24px;
-	color: #808080;
+	color: #5f6a7d;
 	width: 40px;
 	height: 40px;
 	line-height: 0px;
@@ -342,7 +342,7 @@ MENU
 	height: 40px;
 	line-height: 40px;
 	cursor: pointer;
-	background: rgba(0,0,0,0.25);
+	background:#5f6a7d;
 	-webkit-transition: all .1s ease-in-out;
 	   -moz-transition: all .1s ease-in-out;
 		-ms-transition: all .1s ease-in-out;
@@ -352,7 +352,7 @@ MENU
 
 #menuToggle:hover {
 	color: #ffffff;
-	background: rgba(0,0,0,0.2);
+	background:#374256;
 	-webkit-transition: all .1s ease-in-out;
 	   -moz-transition: all .1s ease-in-out;
 		-ms-transition: all .1s ease-in-out;
@@ -372,10 +372,10 @@ INTRO
     font-size: 70px;
   }
   .typed-cursor {
-    font-size: 42px;
+    font-size: 18px;
   	opacity: 1;
-  	padding: 10px 2px;
-  	background: #000000;
+  	padding: 36px 0px 18px;
+  	background: #374256;
   	margin: 10px;
   	-webkit-animation: blink 0.5s linear infinite;
       -moz-animation: blink 0.5s linear infinite;
@@ -388,10 +388,10 @@ INTRO
 }
 @media (max-width: 1200px) {
   .typed-cursor {
-    font-size: 20px;
+    font-size: 12px;
   	opacity: 1;
-  	padding: 10px 2px;
-  	background: #000000;
+  	padding: 24px 0px 12px;
+  	background: #374256;
   	margin: 10px;
   	-webkit-animation: blink 0.5s linear infinite;
       -moz-animation: blink 0.5s linear infinite;
@@ -416,7 +416,7 @@ PHOTO
   height: 100%;
   list-style-type: none;
   text-align: center;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(76, 175, 80, 0.6);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -684,33 +684,6 @@ ABOUT
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
-.aboutimage {
-	display: block;
-	background: transparent url(about.jpg) no-repeat left top;
-	background-position: 50%;
-	background-size: 1600% 100%;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	user-select: none;
-}
-
-.aboutimage img {
-	width: 100%;
-	opacity: 0;
-	pointer-events: none;
-}
-
-html.touch .about .aboutimage {
-	display: block;
-	background: none !important;
-}
-
-html.touch .about .aboutimage img {
-	opacity: 1 !important;
-}
-
 /*
 
 =====================
@@ -738,7 +711,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #1A1A1A;
+    background-color: #374256;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -764,7 +737,7 @@ FOOTER
   padding-bottom: 0;
 }
 .footer__copyright {
-  background: #1A1A1A;
+  background: #374256;
   color: #ccc;
   padding: 20px 0;
   font-size: 14px;
@@ -1185,7 +1158,7 @@ body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.55;
-  color: #000000;
+  color: #374256;
   background-color: #ffffff;
 }
 a {
@@ -1197,6 +1170,11 @@ a:focus {
   color: #2E7D32;
   text-decoration: none;
 }
+
+h4 {
+  color: inherit !important;
+}
+
 a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
@@ -1583,7 +1561,7 @@ h6,
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 1.2;
-  color: #000000;
+  color: #374256;
 }
 h1,
 .h1 {
